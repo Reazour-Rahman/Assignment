@@ -137,33 +137,48 @@
     /*Simple hover effect */
     
     .item :hover {
-        background-color: gold;
-        color: tomato;
+        background-color: rgb(56, 56, 56);
+        color: white;
     }
     /*Social Media Section */
     
     .follow li {
         display: inline;
-        font-size: 30px;
+        font-size: 15px;
+        font-weight: 700px;
     }
     
     .follow li a {
         text-decoration: none;
-        color: aliceblue;
-        background-color: rgb(24, 24, 24);
-        padding: 1px 20px;
+        color: rgb(248, 248, 248);
+        padding: 15px 40px;
     }
     
     .follow {
         width: 100%;
         text-align: center;
-        margin-top: 180px;
+        margin-top: 150px;
     }
     
-    .social-media li a:hover {
-        color: aqua;
+    .insta {
+        border-radius: 40px;
+        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+        padding: 0 -15px;
     }
     
-    .follow li a:hover {
-        background-color: brown;
+    .facebook {
+        background-color: #285AEB;
+        border-radius: 40px;
+    }
+    
+    .youtube {
+        border-radius: 40px;
+        background-color: red;
+    }
+    
+    .youtube:hover,
+    .facebook:hover,
+    .insta:hover {
+        color: black;
+        font-size: 22px;
     }
