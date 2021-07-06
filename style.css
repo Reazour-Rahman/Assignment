@@ -1,184 +1,202 @@
-    body {
-        font-family: 'Prompt', sans-serif;
-        color: rgb(66, 65, 65);
-    }
-    /* Dropdown-menu */
-    
-    .dropdown li {
-        display: inline;
-        font-size: 20px;
-    }
-    
-    .dropdown li a {
-        text-decoration: none;
-        color: aliceblue;
-        background-color: tomato;
-        padding: 15px 30px;
-    }
-    
-    .dropdown {
-        width: 90%;
-        margin: auto;
-    }
-    
-    .menu {
-        margin-top: 50px;
-        display: flex;
-    }
-    
-    .dropdown li a:hover {
-        background-color: rgb(3, 194, 130);
-    }
-    /* section two */
-    
-    .two {
-        display: flex;
-    }
-    
-    .half-width {
-        margin: auto 118px;
-        font-size: 25px;
-        line-height: 19px;
-        word-spacing: 5px;
-        letter-spacing: 2px;
-    }
-    
-    .half-width p {
-        margin-top: -10px;
-        line-height: 25px;
-        font-size: 14px;
-        margin-left: -1px;
-    }
-    
-    .half-width span {
-        color: tomato;
-    }
-    
-    .half-width a {
-        text-decoration: none;
-        background-image: linear-gradient(to bottom right, rgb(240, 105, 82), rgb(241, 48, 13));
-        color: aliceblue;
-        font-size: 16px;
-        padding: 10px 35px;
-        border-radius: 40px;
-    }
-    
-    #woman1 {
-        margin: auto;
-    }
-    /* section three */
-    
-    .three {
-        display: flex;
-        background-image: url(images/shapes/Frame\ 59.jpg);
-        height: 418px;
-        margin-bottom: 50px;
-    }
-    
-    .about {
-        text-align: justify;
-        width: 50%;
-        margin-top: 50px;
-    }
-    
-    #woman2 {
-        margin-left: 180px;
-    }
-    
-    #content {
-        margin: auto;
-        width: 50%;
-        padding: 50px;
-        margin-right: 80px;
-    }
-    
-    #content a {
-        text-decoration: none;
-        background-image: linear-gradient(to bottom right, rgb(240, 105, 82), rgb(241, 48, 13));
-        color: aliceblue;
-        font-size: 16px;
-        padding: 10px 35px;
-        border-radius: 40px;
-    }
-    /* section four */
-    
-    .four {
-        text-align: center;
-    }
-    /* section items */
-    
-    .item {
-        width: 100%;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-    }
-    
-    .container img {
-        width: 350px;
-        height: auto;
-        margin: 25px;
-        border-radius: 20px;
-    }
-    
-    .container {
-        background-color: white;
-        margin: 15px;
-        border-radius: 20px;
-        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    }
-    
-    .container h1,
-    p {
-        margin-left: 28px;
-        margin-top: -5;
-        line-height: 20px;
-    }
-    /*Simple hover effect */
-    
-    .item :hover {
-        background-color: rgb(56, 56, 56);
-        color: white;
-    }
-    /*Social Media Section */
-    
-    .follow li {
-        display: inline;
-        font-size: 15px;
-        font-weight: 700px;
-    }
-    
-    .follow li a {
-        text-decoration: none;
-        color: rgb(248, 248, 248);
-        padding: 15px 40px;
-    }
-    
-    .follow {
-        width: 100%;
-        text-align: center;
-        margin-top: 150px;
-    }
-    
-    .insta {
-        border-radius: 40px;
-        background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
-        padding: 0 -15px;
-    }
-    
-    .facebook {
-        background-color: #285AEB;
-        border-radius: 40px;
-    }
-    
-    .youtube {
-        border-radius: 40px;
-        background-color: red;
-    }
-    
-    .youtube:hover,
-    .facebook:hover,
-    .insta:hover {
-        color: black;
-        font-size: 22px;
-    }
+        body {
+            font-family: 'Prompt', sans-serif;
+            color: rgb(66, 65, 65);
+        }
+        /* Dropdown-menu */
+        
+        .dropdown li {
+            display: inline;
+            font-size: 20px;
+        }
+        
+        .dropdown li a {
+            text-decoration: none;
+            color: aliceblue;
+            background-color: tomato;
+            padding: 15px 30px;
+        }
+        
+        .dropdown {
+            width: 90%;
+            margin: auto;
+        }
+        
+        .menu {
+            margin-top: 50px;
+            display: flex;
+        }
+        
+        .dropdown li a:hover {
+            background-color: rgb(3, 194, 130);
+        }
+        /* section two */
+        
+        .two {
+            display: flex;
+        }
+        
+        .half-width {
+            margin: auto 118px;
+            font-size: 25px;
+            line-height: 19px;
+            word-spacing: 5px;
+            letter-spacing: 2px;
+        }
+        
+        .half-width p {
+            margin-top: -10px;
+            line-height: 25px;
+            font-size: 14px;
+            margin-left: -1px;
+        }
+        
+        .half-width span {
+            color: tomato;
+        }
+        
+        .half-width a {
+            text-decoration: none;
+            background-image: linear-gradient(to bottom right, rgb(240, 105, 82), rgb(241, 48, 13));
+            color: aliceblue;
+            font-size: 16px;
+            padding: 10px 35px;
+            border-radius: 40px;
+        }
+        
+        #woman1 {
+            margin: auto;
+        }
+        /* section three */
+        
+        .three {
+            display: flex;
+            background-image: url(images/shapes/Frame\ 59.jpg);
+            height: 418px;
+            margin-bottom: 50px;
+        }
+        
+        .about {
+            text-align: justify;
+            width: 50%;
+            margin-top: 50px;
+        }
+        
+        #woman2 {
+            margin-left: 180px;
+        }
+        
+        #content {
+            margin: auto;
+            width: 50%;
+            padding: 50px;
+            margin-right: 80px;
+        }
+        
+        #content a {
+            text-decoration: none;
+            background-image: linear-gradient(to bottom right, rgb(240, 105, 82), rgb(241, 48, 13));
+            color: aliceblue;
+            font-size: 16px;
+            padding: 10px 35px;
+            border-radius: 40px;
+        }
+        /* section four */
+        
+        .four {
+            text-align: center;
+        }
+        /* section items */
+        
+        .item {
+            width: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .container img {
+            width: 350px;
+            height: auto;
+            margin: 25px;
+            border-radius: 20px;
+        }
+        
+        .container {
+            background-color: white;
+            margin: 15px;
+            border-radius: 20px;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        }
+        
+        .container h1,
+        p {
+            margin-left: 28px;
+            margin-top: -5;
+            line-height: 20px;
+        }
+        /*Simple hover effect */
+        
+        .item :hover {
+            background-color: rgb(56, 56, 56);
+            color: white;
+        }
+        /*Social Media Section */
+        
+        .follow li {
+            display: inline;
+            font-size: 15px;
+            font-weight: 700px;
+        }
+        
+        .follow li a {
+            text-decoration: none;
+            color: rgb(248, 248, 248);
+            padding: 15px 40px;
+        }
+        
+        .follow {
+            width: 100%;
+            text-align: center;
+            margin-top: 150px;
+        }
+        
+        .insta {
+            border-radius: 40px;
+            background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+            padding: 0 -15px;
+        }
+        
+        .facebook {
+            background-color: #285AEB;
+            border-radius: 40px;
+        }
+        
+        .youtube {
+            border-radius: 40px;
+            background-color: red;
+        }
+        
+        .youtube:hover,
+        .facebook:hover,
+        .insta:hover {
+            color: black;
+            font-size: 22px;
+        }
+        /*footer ,last Section */
+        
+        .footer {
+            height: 200px;
+            width: 100%;
+            background-color: rgb(7, 1, 19);
+            color: white;
+            text-align: center;
+            padding-top: 20px;
+        }
+        
+        .footer span {
+            color: tomato;
+        }
+        
+        .footer p {
+            font-size: 13px;
+        }
